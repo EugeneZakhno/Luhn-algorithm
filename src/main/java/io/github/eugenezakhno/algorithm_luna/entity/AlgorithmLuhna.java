@@ -4,9 +4,9 @@ public class AlgorithmLuhna {
 
     public static void main(String[] args) {
         String value = "5671 5756 5764 4657";
-        System.out.println(Luna(value));
+        System.out.println(luhna(value));
     }
-    private static String Luna(final String value){
+    private static String luhna(final String value){
         int sum = 0;
         int nDigits = value.length();
         int parity = nDigits % 2;
